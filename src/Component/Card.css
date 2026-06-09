@@ -62,12 +62,14 @@
     height: 150px;
   }
 
+  .cardItem p {
+    font-size: 14px;
+  }
+
   .card_All {
     width: 160px;
     height: 310px;
   }
-
- 
 
   .card_heading {
     font-size: 20px;
@@ -82,7 +84,6 @@
 
   .card_pc {
     width: 100px;
-   
   }
 
   .cardItem {
