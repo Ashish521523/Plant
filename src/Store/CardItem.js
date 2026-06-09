@@ -13,7 +13,7 @@
       image: "imagei2.png",
       plantName: "Plantain Lilies",
       about:
-        "Hostas are primaliy grown for their lush, decorative leaves, which come in a wide variety of shapes size",
+        "Hostas are primaliy grown for their lush, decorative leaves.",
       Rs: "Rs. 380/-",
 
     },
@@ -47,7 +47,7 @@
       image: "imagei6.png",
       plantName: "Agave plan",
       about:
-        "The Agave plant is a genus of succulent plants known for their striking rosette of thick, fleshy leaves and architectural forms.",
+        "The Agave plant is a genus of succulent plants known for their striking rosette of thick.",
       Rs: "Rs. 350/-",
     },
   ];

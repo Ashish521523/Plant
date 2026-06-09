@@ -1,4 +1,4 @@
-*{
+* {
   color: white;
 }
 .img_contenar {
@@ -67,6 +67,10 @@
     height: 310px;
   }
 
+  .cardItem p {
+    font-size: 12px;
+  }
+
   .card_heading {
     font-size: 20px;
     margin-left: -51px;
@@ -80,6 +84,7 @@
 
   .card_pc {
     width: 100px;
+    margin-top: 5px;
   }
 
   .cardItem {
