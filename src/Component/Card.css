@@ -67,9 +67,7 @@
     height: 310px;
   }
 
-  .cardItem p {
-    font-size: 12px;
-  }
+ 
 
   .card_heading {
     font-size: 20px;
@@ -84,7 +82,7 @@
 
   .card_pc {
     width: 100px;
-    margin-top: 5px;
+   
   }
 
   .cardItem {
