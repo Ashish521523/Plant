@@ -1,0 +1,161 @@
+.home_heading {
+  max-width: 802px;
+  height: 280px;
+}
+
+.heading {
+  font-size: 7rem;
+}
+
+.home_about {
+  font-size: 23px;
+}
+
+.button_contenar {
+  display: flex;
+}
+
+.home_button {
+  border: 2px, solid, white;
+  width: 154px;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+.home_play {
+  margin-left: 17px;
+  margin-top: 8px;
+  border: 2px, solid, white;
+  width: 53px;
+  height: 53px;
+  border-radius: 50px;
+  padding-left: 6px;
+  padding-top: 4px;
+}
+
+.play {
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+
+.butto_about {
+  margin-left: 14px;
+  margin-top: 31px;
+}
+
+.home_contenar2 {
+  border:
+    1px solid,
+    white;
+  background-color: rgba(255, 255, 255, 0.05);
+  width: 387px;
+  height: 207px;
+  border-radius: 30px;
+  border-width: 1px;
+  margin-top: 10px;
+}
+
+.home_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 14px;
+  margin-top: 20px;
+}
+
+.image_content {
+  display: flex;
+}
+
+.name_content {
+  margin-left: 15px;
+  margin-top: 26px;
+}
+
+.contenar_about {
+  margin-top: 13px;
+  margin-left: 11px;
+}
+
+.home_contenar3 {
+  border: 2px, solid, white;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 30px;
+  width: 350px;
+  height: 400px;
+  margin-right: 40px;
+  margin-top: 90px;
+}
+
+.home_img1 {
+  width: 350px;
+  height: 350px;
+  margin-top: -101px;
+}
+
+.item_name {
+  margin-left: 28px;
+}
+
+.plant_name {
+  font-size: 27px;
+  margin-left: 20px;
+}
+
+.button_item {
+  background-color: #1b2316;
+  width: 110px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 18px;
+}
+
+.main_contenar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home_contenar12 {
+  margin-top: 45px;
+  margin-left: 17px;
+}
+
+@media (max-width: 640px) {
+  .main_contenar {
+    background-color: #1b2316;
+    display: flexbox;
+    flex-direction: column;
+    max-width: 640px;
+  }
+
+  .heading {
+    font-size: 50px;
+  }
+
+  .home_contenar2 {
+    width: 330px;
+  }
+
+  .home_about {
+    font-size: 20px;
+  }
+
+  .home_contenar3 {
+    width: 344px;
+    margin-left: 8px;
+  }
+
+  .home_contenar12 {
+    margin-top: 6px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .heading {
+    font-size: 70px;
+  }
+}
