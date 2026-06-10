@@ -154,8 +154,8 @@
   }
 }
 
-@media (max-width: 1050px) {
+@media (min-width:649px) and (max-width: 1050px) {
   .heading {
-    font-size: 70px;
+    font-size: 50px;
   }
 }
