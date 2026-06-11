@@ -4,7 +4,7 @@ import "./Trendy_plant.css";
 
 function Trendy_plant() {
   return (
-    <div className="main_plant_contenar">
+    <>
       <h1 className="plant_heading">Our Trendy plants</h1>
       <div className="plantContenar">
         <img src="image3.png" className="trendy_img  trendy_img1" />
@@ -28,7 +28,9 @@ function Trendy_plant() {
 
       <div className="plantContenar1">
         <div className="plant_about  plant_about2">
-          <h1 className="plant_name  plant_name2">For Your Desks Decorations</h1>
+          <h1 className="plant_name  plant_name2">
+            For Your Desks Decorations
+          </h1>
           <p className="trendy_about">
             The greenery adds a touch of nature and serenity to my desk, making
             it feel more inviting and calming
@@ -46,7 +48,7 @@ function Trendy_plant() {
 
         <img src="image4.png" className="trendy_img  trendy_img2" />
       </div>
-    </div>
+    </>
   );
 }
 
