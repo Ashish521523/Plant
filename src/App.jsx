@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="AppContenar">
       <Header></Header>
-      <Trendy_plant></Trendy_plant>
       <Home></Home>
+      <Trendy_plant></Trendy_plant>
       <Card></Card>
     </div>
   );
