@@ -1,0 +1,51 @@
+.review_contenar {
+  border: 2px, solid, white;
+  border-radius: 50px;
+  width: 19rem;
+  height: 14rem;
+  margin-top: 6rem;
+}
+
+.img_name_contenar {
+  display: flex;
+}
+
+.img_name_contenar h2 {
+  margin-left: 22px;
+  margin-top: 36px;
+}
+
+.review_contenar p {
+  margin-left: 20px;
+  margin-top: 18px;
+  width: 16rem;
+}
+
+.review_img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 31px;
+}
+
+.review_main_contenar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.review_heading {
+  text-align: center;
+  margin-top: 7rem;
+}
+
+@media (max-width: 640px) {
+  .review_main_contenar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .review_main_contenar {
+    margin-left: 2rem;
+  }
+}
