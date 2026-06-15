@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { IoIosSearch } from "react-icons/io";
 import { IoReorderThreeOutline } from "react-icons/io5";
 import { IoBagHandleOutline } from "react-icons/io5";
-import './Header.css'
+import "./Header.css";
+import { Link } from "react-router-dom";
 
 function Header() {
   let [mobiletype, setMobiletype] = useState(false);
@@ -23,10 +24,18 @@ function Header() {
         </div>
         <nav className={mobiletype ? "menuMobile" : "menuWeb"}>
           <ul className="nav_item">
-            <li>Home</li>
-            <li>Plant type</li>
-            <li>More</li>
-            <li>Contact</li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/type">Plant type</Link>
+            </li>
+            <li>
+              <Link to="/">More</Link>
+            </li>
+            <li>
+              <Link to="/">Contact</Link>
+            </li>
           </ul>
         </nav>
         <div className="nav_buttoContenar">
@@ -38,7 +47,10 @@ function Header() {
             <IoBagHandleOutline className="nav_button" />
           </button>
 
-          <button onClick={handelMobilesite} className="nav_mobileicon nav_buttonitem">
+          <button
+            onClick={handelMobilesite}
+            className="nav_mobileicon nav_buttonitem"
+          >
             <IoReorderThreeOutline className="nav_button" />
           </button>
         </div>
