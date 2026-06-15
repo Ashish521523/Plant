@@ -1,0 +1,43 @@
+.ourbest_main_heading {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.ourbest_img {
+  max-width: 32rem;
+  height: 32rem;
+  margin-top: -78px;
+}
+
+.ourbest_contenar {
+  border: 2px, solid, white;
+  width: auto;
+  height: 30rem;
+  display: flex;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 50px;
+  margin-top: 5rem;
+}
+
+.ourbest_heading {
+  margin-top: 5rem;
+}
+
+.ourbest_about {
+  max-width: 38rem;
+  font-size: 1rem;
+}
+
+.ourbest_button {
+  width: 8rem;
+  height: 2rem;
+  border-radius: 10px;
+  color: black;
+}
+
+@media (max-width: 640px) {
+  .card_main_heading {
+    display: none;
+  }
+}

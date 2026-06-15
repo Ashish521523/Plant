@@ -1,6 +1,12 @@
 * {
   color: white;
 }
+
+.card_main_heading {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
 .img_contenar {
   width: 350px;
   height: 300px;

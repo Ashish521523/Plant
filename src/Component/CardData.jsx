@@ -1,5 +1,5 @@
 import { IoBagHandleOutline } from "react-icons/io5";
-import './Card.css'
+import "./Card.css";
 function CardData({ card }) {
   return (
     <>
