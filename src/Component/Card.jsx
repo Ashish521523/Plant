@@ -4,7 +4,7 @@ import "./Card.css";
 function Card() {
   return (
     <>
-      <h1 className="card_main_heading">Our Top Selling Plants</h1>
+      <h1 className="card_main_heading1">Our Top Selling Plants</h1>
       <div className="card_main">
         {carditem.map((card) => (
           <CardData card={card}> {card}</CardData>

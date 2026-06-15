@@ -2,7 +2,7 @@
   color: white;
 }
 
-.card_main_heading {
+.card_main_heading1 {
   text-align: center;
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -63,6 +63,9 @@
 }
 
 @media (max-width: 640px) {
+  .card_main_heading1 {
+    font-size: 25px;
+  }
   .img_contenar {
     width: 150px;
     height: 150px;
