@@ -23,6 +23,10 @@
   margin-top: -14px;
 }
 
+.card_bag:hover {
+  background-color: #c2cebb;
+}
+
 .card_pc {
   display: flex;
   justify-content: space-between;

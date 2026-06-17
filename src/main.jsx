@@ -7,6 +7,9 @@ import { createHashRouter, RouterProvider } from "react-router-dom";
 import Header from "./Component/Header.jsx";
 import Footer from "./Component/Footer.jsx";
 import Card from "./Component/Card.jsx";
+import HandelBagitem from "./Component/BagStore.jsx";
+import Bag from "./Component/Bag.jsx";
+import ItemPrice from "./Component/ItemPrice.jsx";
 
 let router = createHashRouter([
   { path: "/", element: <App /> },
@@ -21,10 +24,24 @@ let router = createHashRouter([
       </div>
     ),
   },
+
+  {
+    path:"/bag",
+    element:(
+      <div className="AppContenar">
+      <Header></Header>
+      <Bag></Bag>
+      <ItemPrice></ItemPrice>
+      <Footer></Footer>
+      </div>
+    )
+  }
 ]);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <HandelBagitem>
+      <RouterProvider router={router} />
+    </HandelBagitem>
   </StrictMode>,
 );

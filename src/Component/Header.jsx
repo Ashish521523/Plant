@@ -44,7 +44,9 @@ function Header() {
           </button>
 
           <button className="nav_buttonitem">
-            <IoBagHandleOutline className="nav_button" />
+            <Link to="/bag">
+              <IoBagHandleOutline className="nav_button" />
+            </Link>
           </button>
 
           <button

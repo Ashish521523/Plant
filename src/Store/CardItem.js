@@ -5,7 +5,7 @@
       plantName: "Aglaonema plant",
       about:
         " The Aglaonema plant, commonly known as chinese Evergreen known for its atlractive foliage and ease of care",
-      Rs: "Rs. 300/-",
+      Rs: 300,
 
     },
 
@@ -14,7 +14,7 @@
       plantName: "Plantain Lilies",
       about:
         "Hostas are primaliy grown for their lush, decorative leaves.",
-      Rs: "Rs. 380/-",
+      Rs: 380,
 
     },
 
@@ -22,7 +22,7 @@
       image: "imagei3.png",
       plantName: "Cactus",
       about: " it is known for their ability to thrive in arid environment",
-      Rs: "Rs. 259/-",
+      Rs: 259,
  
     },
 
@@ -31,7 +31,7 @@
       plantName: "Swiss cheese Plant",
       about:
         " It is a popular tropical houseplant known for its distinctive, perforated leaves",
-      Rs: "Rs. 400/-",
+      Rs: 400,
     },
 
     {
@@ -39,7 +39,7 @@
       plantName: "Sansevieria plant",
       about:
         " It is a popular indoor plant admired for its striking appearance and low-maintenance nature.",
-      Rs: "Rs. 450/-",
+      Rs: 450,
 
     },
 
@@ -48,6 +48,6 @@
       plantName: "Agave plan",
       about:
         "The Agave plant is a genus of succulent plants known for their striking rosette of thick.",
-      Rs: "Rs. 350/-",
+      Rs: 350,
     },
   ];

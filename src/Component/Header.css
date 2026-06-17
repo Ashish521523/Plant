@@ -14,6 +14,9 @@
 .nav_contenar {
   display: flex;
   justify-content: space-between;
+  position: sticky;
+    top: 0px;
+    background-color: #1b2316;
 }
 
 .nav_imgcontenar {

@@ -7,6 +7,7 @@
   display: flex;
   justify-content: space-evenly;
   margin-top: 7rem;
+  width: 100%;
 }
 
 .footer_img_heading {
@@ -55,8 +56,8 @@
   margin-top: 8rem;
 }
 
-@media(max-width:640px){
-  .footer_contenar{
+@media (max-width: 640px) {
+  .footer_contenar {
     display: none;
   }
 }
